@@ -15,9 +15,9 @@
 		
 	<properties>
            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-           <sonar.host.url>http://52.149.144.245:9000</sonar.host.url>
+           <sonar.host.url>http://40.83.76.231:9000</sonar.host.url>
            <sonar.login>admin</sonar.login>
-           <sonar.password>Admin@1234</sonar.password>
+           <sonar.password>admin123</sonar.password>
         </properties>
 
 	<dependencies>
@@ -111,11 +111,11 @@
 	<distributionManagement>
 	   <snapshotRepository>
              <id>nexus</id>               
-               <url>http://52.149.144.245:8081/repository/maven-snapshots/</url>
+               <url>http://40.83.76.231:8081/repository/maven-snapshots/</url>
            </snapshotRepository>
 	   <repository>
              <id>nexus</id>
-             <url>http://52.149.144.245:8081/repository/maven-releases/</url>
+             <url>http://40.83.76.231:8081/repository/maven-releases/</url>
        	    </repository>
 	</distributionManagement>
 	<reporting>
@@ -182,9 +182,9 @@
         		    <artifactId>flyway-maven-plugin</artifactId>
 			    <version>6.4.4</version>
 			    <configuration>
-                              <url>jdbc:mysql:52.149.144.245:3306</url>
+                              <url>jdbc:mysql:40.83.76.231:3306</url>
                               <user>claimuser1</user>
-		              <password>H@ckath0n</password>
+		              <password>H@kath0n</password>
 			      <schemas>
                                  <schema>claimdb</schema>
                               </schemas>
